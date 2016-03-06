@@ -37,4 +37,3 @@ catkin_simple()
 
 cs_install()
 cs_export()
-    
