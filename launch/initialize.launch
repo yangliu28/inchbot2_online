@@ -2,7 +2,7 @@
 <launch>
 
   <!-- set port path to parameter server -->
-  <param name="~port" value="/dev/ttyACM0" />
+  <param name="~port" value="/dev/ttyACM1" />
 
   <!-- ros arduino serial communication -->
   <node name="coordinate_xbee" pkg="rosserial_python" type="serial_node.py" />
